@@ -1,7 +1,8 @@
 function startGame() {
     // starting a new game
     var messagesElement = document.getElementById('messages');
-    messagesElement.innerHTML = 'Welcome to MultiMath! Starting new game...'
+    // Adding ! makes the assumption the element is not-null
+    messagesElement!.innerHTML = 'Welcome to MultiMath! Starting new game...'
 }
 
-document.getElementById('startGame').addEventListener('click', startGame);
+document.getElementById('startGame')!.addEventListener('click', startGame);
