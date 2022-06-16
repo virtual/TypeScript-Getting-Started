@@ -2,8 +2,8 @@
 
 ## Dev
 
-- run `tsc` to watch for compilations
-- `npm use stable` & `npm start` to start web server
+- run `nvm use stable` & `tsc` to watch for compilations (bash #1)
+- `nvm use stable` & `npm start` to start web server (bash #2)
 - visit http://localhost:8080/ 
 
 ## Course notes
